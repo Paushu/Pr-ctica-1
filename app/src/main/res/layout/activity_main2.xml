@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MainActivity2">
+
+    <TableRow>
+        <ImageView
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/dani2"/>
+    </TableRow>
+    <TableRow >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="120dp"
+            android:text="Dani Sandoval"
+            android:textAlignment="center"
+            android:textColor="@color/gris"
+            android:textSize="20dp"/>
+            </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="3112630089"
+            android:layout_gravity="center"
+            android:paddingLeft="120dp"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/pass"
+            android:layout_gravity="center"
+            android:paddingLeft="120dp"/>
+
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:text="Enter your password"
+            android:paddingLeft="120dp"
+            android:textColor="@color/gris"
+            android:paddingBottom="20dp"/>
+    </TableRow >
+    <TableRow>
+        <GridLayout android:columnCount="3" android:rowCount="4">
+            <ImageView android:src="@drawable/d9" android:paddingLeft="80dp"/>
+            <ImageView android:src="@drawable/d8" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d7" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d6" android:paddingLeft="80dp"/>
+            <ImageView android:src="@drawable/d5" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d4" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d3" android:paddingLeft="80dp"/>
+            <ImageView android:src="@drawable/d2" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d1" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/d0" android:paddingLeft="80dp"/>
+            <ImageView android:src="@drawable/d0" android:paddingLeft="30dp"/>
+            <ImageView android:src="@drawable/retroceso" android:paddingLeft="30dp"/>
+        </GridLayout>
+    </TableRow>
+</TableLayout>

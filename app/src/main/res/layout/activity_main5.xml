@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menta"
+    android:columnCount="2"
+    android:rowCount="3"
+    tools:context=".MainActivity5">
+
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/libro"
+            android:paddingTop="80dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:text="Text"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/casa"
+            android:paddingTop="80dp"
+            android:paddingRight="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:paddingTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:text="Address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dani2"
+            android:paddingTop="50dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:paddingTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Character"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tarjeta"
+            android:paddingTop="80dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:paddingTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Bank card"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/llave"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:paddingTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Bank card"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="80dp"
+            android:src="@drawable/dinero"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:paddingTop="60dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Logistic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="20dp"
+            android:text="Descripción"/>
+
+
+    </FrameLayout>
+
+</GridLayout>

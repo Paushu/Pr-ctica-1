@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+
+    android:padding="23dp"
+    tools:context=".MainActivity3">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/verde"
+        android:layout_gravity="left"
+        android:layout_marginTop="120dp"
+        android:paddingBottom="30dp"
+        android:id="@+id/verde"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:08/03:34"
+        android:layout_marginTop="105dp"
+        android:background="@color/blackblur"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_toEndOf="@id/verde"
+        android:paddingRight="40dp"
+        android:id="@+id/tiempo"/>
+
+    <ImageView
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verde"
+
+        android:paddingTop="190dp"
+        android:src="@drawable/refresh" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pause"
+        android:layout_below="@id/tiempo"
+        android:paddingLeft="70dp"
+        android:paddingTop="190dp"
+        android:layout_toEndOf="@id/record"
+        android:id="@+id/pause"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flecha"
+        android:layout_below="@id/tiempo"
+        android:paddingLeft="70dp"
+        android:paddingTop="220dp"
+        android:layout_toEndOf="@id/pause"
+        />
+
+</RelativeLayout>
